@@ -1,0 +1,16 @@
+@import './containers/followerInfoContainer';
+@import './containers/overviewContainer';
+.dashboardContainer{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 1/13;
+    grid-row: 1/13;
+    @include media('>=phone'){
+        padding: 4rem;
+      }
+    @include media('>=tablet'){
+        padding: 4rem 8rem;
+    }
+}

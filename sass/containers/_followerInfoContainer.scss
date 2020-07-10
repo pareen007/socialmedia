@@ -1,0 +1,88 @@
+// html
+/*
+<div class="followerInfoContainer">
+    <div class="line facebook"></div>
+    <div class="user">
+      <img src="./images/icon-facebook.svg" alt="">
+      <p>@nathanf</p>
+    </div>
+    <div class="followers">
+      <p>1987</p>
+      <p>followers</p>
+    </div>
+    <div class="follow">
+      <img src="./images/icon-up.svg" alt="">
+      <p>12 Today</p>
+    </div>
+</div>
+*/
+
+.followerInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cardBackgroundColor);
+    padding: 1rem;
+    height: 12rem;
+    width: 90vw;
+    border-radius: 0.25rem;
+    position: relative;
+    font-size: 0.8rem;
+    margin: 2rem 0;
+    @include media('>=phone'){
+        width: 100%;
+        align-self: center;
+        justify-self: stretch;
+        margin: 0;
+      }
+    .user{
+        display: flex;
+        align-items: center;
+        img{
+            padding-right: 0.5rem;
+        }
+    }
+    .followers{
+        p:nth-child(1){
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        p:nth-child(2){
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+            font-weight: 400;
+        }
+       
+    }
+    .follow{
+        display: flex;
+        align-items: center;
+        img{
+            height: 0.35rem;
+            padding-right: 0.25rem;
+        }
+    }
+    
+    .line{
+        position: absolute;
+        top: 0;
+        height: 0.25rem;
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+}
+.facebook{
+    background: $facebook;
+}
+.twitter{
+    background: $twitter;
+}
+.instagram{
+    background: linear-gradient(to left, $instagramTwo, $instagramOne);
+}
+.youtube{
+    background: $youtube;
+}

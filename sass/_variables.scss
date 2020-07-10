@@ -1,0 +1,25 @@
+// variables
+:root{
+    --backgroundColor: hsl(0,0%,100%);
+    --topBackgroundColor:hsl(277,100%,98%);
+    --cardBackgroundColor:hsl(277,47%,96%);
+    --textPrimaryColor:hsl(230, 17%, 14%);
+    --textSecondaryColor:hsl(228, 12%, 44%);
+    --toggleColorOne: hsl(230, 22%, 74%);
+    --toggleColorTwo:hsl(230, 22%, 74%);
+}
+// dark theme
+[data-theme="dark"]{
+    --backgroundColor: hsl(230, 17%, 14%);
+    --topBackgroundColor:hsl(232, 19%, 15%);
+    --cardBackgroundColor:hsl(228, 28%, 20%);
+    --textPrimaryColor:hsl(0, 0%, 100%);
+    --textSecondaryColor:hsl(228, 34%, 66%);
+    --toggleColorOne:hsl(210, 78%, 56%);
+    --toggleColorTwo:hsl(146, 68%, 55%);
+}
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(203, 89%, 53%);
+$instagramOne: hsl(37, 97%, 70%);
+$instagramTwo:hsl(329, 70%, 58%);
+$youtube:hsl(348, 97%, 39%);

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.primary-text,
+.secondary-text{
+    text-transform: capitalize;
+}
+.primary-text{
+    color: var(--textPrimaryColor);
+}
+.secondary-text{
+    color: var(--textSecondaryColor);
+    @include media('>=phone'){
+        padding: 1rem;
+      }
+}
