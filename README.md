@@ -1,6 +1,8 @@
+# Completed Site: https://pareen007.github.io/socialmedia/
 # Frontend Mentor - Social media dashboard with theme switcher
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+
 
 ## Welcome! 👋
 
